@@ -13,6 +13,7 @@ public class CalTest extends TestCase{
 		int actual= cal.add(a, b);
 		assertEquals(expected, actual);
 		
+		
 	}
 	
 
