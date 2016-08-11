@@ -9,7 +9,7 @@ public class CalTest extends TestCase{
 	public void add(){
 		int a=10;
 		int b=11;
-		int expected=21;
+		int expected=20;
 		int actual= cal.add(a, b);
 		assertEquals(expected, actual);
 	}
