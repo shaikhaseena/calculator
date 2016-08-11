@@ -1,8 +1,10 @@
 package calculator;
 
-import junit.framework.TestCase;
+import org.junit.Assert;
 
-public class CalTest extends TestCase{
+
+
+public class CalTest{
 	
 	Sample cal=new Sample();
 	
@@ -14,7 +16,7 @@ public class CalTest extends TestCase{
 		
 		int actual= cal.add(a, b);
 		
-		assertEquals(expected, actual);
+		Assert.assertEquals(expected, actual);
 		
 		
 	}
